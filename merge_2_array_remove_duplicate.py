@@ -16,3 +16,4 @@ def merger(a,b):
                 result.append(b[j])
             j += 1
     result += b[len(a):]
+    return result
