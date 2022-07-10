@@ -8,6 +8,6 @@ def rotateSubArray(array, array_size_x, array_size_y, starting_x, starting_y, su
         step = 0
         while (step < sub_array_size - 1):
             (array[i][j + step], array[i][j + sub_array_size - 1 - step]) = (
-            array[i][j + sub_array_size - 1 - step], array[i][j + step])
+                array[i][j + sub_array_size - 1 - step], array[i][j + step])
             step += 1
         i += 1
